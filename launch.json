@@ -1,0 +1,13 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Flutter: Admin Panel",
+        "request": "launch",
+        "type": "flutter",
+        "program": "lib/admin_main.dart"  // Specify the entry point for admin panel
+      }
+    ]
+  }
+  

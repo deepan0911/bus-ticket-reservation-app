@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
+import 'screens/user/home_screen.dart';
+// Make sure to import MongoDBService
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();  // Ensure Flutter is initialized
+  // await MongoDBService.connect();  // Connect to MongoDB before the app starts
   runApp(const BusBookingApp());
 }
 
